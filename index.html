@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="css.png" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="https://fonts.google.com/specimen/Noto+Sans" />
+    <link rel="stylesheet" href="style.css" />
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <!-- Font Awesome for icons -->
+    <script
+      src="https://kit.fontawesome.com/a076d05399.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header class="header">
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark px-3">
+        <div class="container-fluid">
+          <div class="left navbar-brand text-white">Siddharth's Portfolio</div>
+
+          <!-- Hamburger button -->
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavDropdown"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <!-- Collapsible menu -->
+          <div
+            class="collapse navbar-collapse justify-content-between position-sticky"
+            id="navbarNavDropdown"
+          >
+            <!-- Navigation Links -->
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 bg-dark">
+              <li class="nav-item">
+                <a class="nav-link" href="#header">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#education">Education</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#skills">Skills</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#projects">Projects</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#Contact Me">Contact Me</a>
+              </li>
+            </ul>
+
+            <!-- Social links -->
+            <div class="d-flex social-links bg-dark">
+              <a
+                href="https://github.com/Siddharthsingh2006"
+                target="_blank"
+                class="nav-link text-white"
+              >
+                <img
+                  src="githubsid.png"
+                  style="width: 20px; margin-right: 5px"
+                />GitHub
+              </a>
+              <a
+                href="https://www.linkedin.com/in/siddharth-baghel-864837356/"
+                target="_blank"
+                class="nav-link text-white"
+              >
+                <img
+                  src="linkedinsid.png"
+                  style="width: 20px; margin-right: 5px"
+                />LinkedIn
+              </a>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="firstSection">
+        <div class="leftSection">
+          <h1>Hello,My name is <span class="purple">Siddharth</span></h1>
+          <p><div>and I'm a passionate</div>
+          <span id="element"></span></p> <!--<span class="purple">Siddharth</span>
+          <!-- <div>and I'm a passionate</div>
+          <span id="element"></span> -->
+        </div>
+        <div class="rightSection">
+          <img src="bg.png.png" alt="" />
+        </div>
+      </section>
+      <div id="about"></div>
+      <section>
+        <h2 class="About">About Me</h2>
+        <p class="paragraph">
+          I am passionate and highly motivated fresher looking to kickstart my
+          career as a I have hands-on experience through academic projects and self-learning
+          in technologies like HTML,CSS,JavaScript and I have a knowledge in
+          C++,DSA,Juypter basic.
+        </p>
+        <br>
+      </section>
+      <section id="education">
+        <h2 id="education">Education</h2>
+        <div class="edu-card">
+          <h3>Class 10th</h3>
+          <p>Bonanza Convent higher secondary School</p>
+          <p>Year: 2021</p>
+          <p>Grade: A</p>
+        </div>
+        <div class="edu-card">
+          <h3>Class 12th</h3>
+          <p>Bonanza Convent higher secondary School</p>
+          <p>Year: 2023</p>
+          <p>Grade: A</p>
+        </div>
+         <!-- Skills Section -->
+      <section id="skills" class="py-2" style="margin-right: 150px;">
+        <div class="container">
+          <h2 class="mb-2">Skills</h2>
+
+          <div class="mb-2">
+            <label class="form-label">HTML</label>
+            <div class="progress">
+              <div class="progress-bar bg-success" role="progressbar" style="width: 100%">100%</div>
+            </div>
+          </div>
+
+          <div class="mb-3">
+            <label class="form-label">CSS</label>
+            <div class="progress">
+              <div class="progress-bar bg-info" role="progressbar" style="width: 95%">95%</div>
+            </div>
+          </div>
+
+          <div class="mb-3">
+            <label class="form-label">JavaScript</label>
+            <div class="progress">
+              <div class="progress-bar bg-warning text-dark" role="progressbar" style="width: 75%">75%</div>
+            </div>
+          </div>
+
+          <div class="mb-3">
+            <label class="form-label">React JS</label>
+            <div class="progress">
+              <div class="progress-bar bg-primary" role="progressbar" style="width: 70%">70%</div>
+            </div>
+          </div>
+
+          <div class="mb-3">
+            <label class="form-label">C++</label>
+            <div class="progress">
+              <div class="progress-bar bg-secondary" role="progressbar" style="width: 80%">80%</div>
+            </div>
+          </div>
+
+          <div class="mb-3">
+            <label class="form-label">DSA</label>
+            <div class="progress">
+              <div class="progress-bar bg-danger" role="progressbar" style="width: 65%">65%</div>
+            </div>
+          </div>
+        </div>
+      </section>
+      </section>
+      <section id="projects">
+        <h2 id="project">Projects</h2>
+        <div class="project">
+          <h3>Portfolio Website</h3>
+          <p>
+            A personal portfolio website built to showcase my skills, projects,
+            and resume. It includes sections like About Me, Skills, Projects,
+            Contact, and a downloadable resume. The site is fully responsive and
+            designed to give a professional first impression to potential
+            employers and clients. Developed using HTML, CSS, JavaScript, and
+            optionally a framework like React or Bootstrap.
+          </p>
+        </div>
+        <div class="project">
+          <h3>EventHub - Event Management Platform</h3>
+          <h4>Project Summary:</h4>
+          <p>
+            EventHub is a web application where users can browse, create, and
+            register for local events. Admins can manage events, view
+            registrations, and approve/reject user-submitted events.
+          </p>
+        </div>
+      </section>
+      <section id="Contact Me">
+        <h2 class="Contact">Contact Me</h2>
+        <br />
+        <form>
+          <input type="text" placeholder="Your Name" required />
+          <input type="email" placeholder="Your Email" required />
+          <textarea placeholder="Your Message"></textarea>
+          <button type="submit">Send</button>
+        </form>
+      </section>
+    </main>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+      var typed = new Typed("#element", {
+        strings: ["Web Developer.", "Programmer.", "Web Designer."],
+        typeSpeed: 50,
+      });
+    </script>
+    <footer class="footer">
+      <p>&copy;2025 Siddharth Singh.All right reserved.</p>
+    </footer>
+    <!-- Bootstrap JS Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
